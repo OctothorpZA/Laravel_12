@@ -1,23 +1,35 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "laravel/laravel",
+    "name": "laravel/livewire-starter-kit",
     "type": "project",
-    "description": "The skeleton application for the Laravel framework.",
-    "keywords": ["laravel", "framework"],
+    "description": "The official Laravel starter kit for Livewire.",
+    "keywords": [
+        "laravel",
+        "framework"
+    ],
     "license": "MIT",
     "require": {
         "php": "^8.2",
-        "laravel/framework": "^12.0",
-        "laravel/tinker": "^2.10.1"
+        "laravel/framework": "^12.12.0",
+        "laravel/tinker": "^2.10.1",
+        "livewire/flux": "^2.1.6",
+        "livewire/volt": "^1.7.1"
     },
     "require-dev": {
-        "fakerphp/faker": "^1.23",
+        "fakerphp/faker": "^1.24.1",
+        "larastan/larastan": "^3.4.0",
+        "laravel/dusk": "^8.3.2",
+        "laravel/horizon": "^5.31.2",
         "laravel/pail": "^1.2.2",
-        "laravel/pint": "^1.13",
-        "laravel/sail": "^1.41",
-        "mockery/mockery": "^1.6",
-        "nunomaduro/collision": "^8.6",
-        "phpunit/phpunit": "^11.5.3"
+        "laravel/pint": "^1.22.0",
+        "laravel/sail": "^1.42.0",
+        "laravel/socialite": "^5.20.0",
+        "laravel/telescope": "^5.7.0",
+        "mockery/mockery": "^1.6.12",
+        "nunomaduro/collision": "^8.8.0",
+        "pestphp/pest": "^3.8",
+        "pestphp/pest-plugin-laravel": "^3.2",
+        "sentry/sentry-laravel": "^4.13.0"
     },
     "autoload": {
         "psr-4": {
